@@ -1,0 +1,8 @@
+POST http://localhost:3100/sendMail
+Content-Type: application/json
+
+{
+    "email":"nagasainithin37@gmail.com",
+    "subject":"testing",
+    "text":"Hello"
+}
