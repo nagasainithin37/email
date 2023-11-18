@@ -7,9 +7,9 @@ const nodemailer = require("nodemailer");
 app.use(exp.json());
 
 const transpoter = nodemailer.createTransport({
-  service: "gmail",
+  service: "hotmail",
   auth: {
-    user: "nagasainithin06@gmail.com",
+    user: "quickcars_capstone@outlook.com",
     pass: "Quick_Cars_capstone",
   },
 });
@@ -25,7 +25,7 @@ app.post(
   "/sendMail",
   expressAsyncHandler(async (req, res) => {
     const options = {
-      from: "scoretrack@outlook.com",
+      from: "quickcars_capstone@outlook.com",
       to: req.body.email,
       subject: req.body.subject,
       text: req.body.text,
