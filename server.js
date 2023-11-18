@@ -10,7 +10,7 @@ const transpoter = nodemailer.createTransport({
   service: "gmail",
   auth: {
     user: "nagasainithin06@gmail.com",
-    pass: "ksmjdfdiordnmtgx",
+    pass: "Quick_Cars_capstone",
   },
 });
 
